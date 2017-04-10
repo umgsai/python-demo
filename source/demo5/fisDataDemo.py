@@ -18,8 +18,6 @@ method_s = "manualAuditSR"
 #payplanid = 139305539
 voucherId = 115213
 result = 1
-#param = "{'status': 5, 'productCode': 1, 'settleEndTime': 1487001599000, 'isReceived': 0, 'failedTimes': 0, 'payAbleDate': 1487001600000, 'actualPayAmount': 448.1, 'planId': 'PP201702140300086538446396764774', 'updateTime': 1487028619000, 'Id': 139305539, 'bankAccountId': 1668852, 'amount': 448.1, 'type': 1, 'addTime': 1487012408000, 'operator': 'ts-atm-payPlan', 'settleBeginTime': 1486396800000, 'actualDeductAmount': 0.0, 'accountId': '210000000169'}"
-
 params_s = "parameters[]=%d&parameters[]=%d" % (voucherId, result)
 params_s += "&url=%s&method=%s&parameterTypes[]=int&parameterTypes[]=int" % (service_url_s, method_s)
 url_s = path + "?" + quote(params_s, safe='&=')
