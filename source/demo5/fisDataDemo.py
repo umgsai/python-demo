@@ -11,10 +11,9 @@ import urllib2
 from urllib import quote
 
 
-path = "http://10.1.121.29:4080/invoke.json"
-#path = "http://10.1.126.172:4080/invoke.json"
+path = "http://10.1.121.291:4080/invoke.json"
 
-service_url_s = "http://service.dianping.com/tsDataSyncService/TSTGSRActivityVoucherService_1.0.0"
+service_url_s = "http://service.***.com/***/**Service_1.0.0"
 method_s = "manualAuditSR"
 #payplanid = 139305539
 voucherId = 115213
