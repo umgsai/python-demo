@@ -25,8 +25,8 @@ ncols = table.ncols #列数
 
 f=file('/Users/shangyidong/Downloads/MemoData.txt','a')
 
-path = "http://10.66.40.64:4080/invoke.json"
-service_url_s = "http://service.dianping.com/bb/merchant/bill/data/BillDailyFlowService_1.0.0"
+path = "http://10.66.40.61:4080/invoke.json"
+service_url_s = "http://service.***.com/bb/merchant/bill/data/***Service_1.0.0"
 method_s = "updateMemoById"
 
 for i in range(nrows):
