@@ -8,7 +8,7 @@ import pexpect
 passwd = "123456"
 cmd = "java -version"
 ret = -1
-ssh = pexpect.spawn('ssh shangyidong@%s' % ("jumper.dper.com"))
+ssh = pexpect.spawn('ssh test@%s' % ("jumper.dper.com"))
 verifyCode = input("Please input your verifyCode:\n")
 passwd = passwd + str(verifyCode)
 ssh.sendline(passwd)
