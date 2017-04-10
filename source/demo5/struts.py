@@ -13,7 +13,7 @@ def poc(url):
     body=response.read()
     return body
 #url=sys.argv[1]
-url = "https://e.ping.com/finance/bank/customerBanks"
+url = "https://e.ping.com/****"
 body=poc(url)
 if "nMask" in body:
 	print "[Loopholes exist]",url
