@@ -17,9 +17,9 @@ table = data.sheets()[0] #第一个工作簿
 nrows = table.nrows #行数
 
 #path = "http://10.66.40.64:4080/invoke.json"
-path = "http://10.1.126.172:4080/invoke.json"
+path = "http://10.1.126.72:4080/invoke.json"
 
-service_url_s = "http://service.dianping.com/bb/merchant/bill/data/BillDailyFlowService_1.0.0"
+service_url_s = "http://service.***.com/bb/merchant/bill/data/***Service_1.0.0"
 method_s = "updateMemoById"
 
 for i in range(nrows):
