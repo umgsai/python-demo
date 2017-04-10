@@ -5,7 +5,7 @@
 
 import pexpect
 
-passwd = "445013"
+passwd = "123456"
 cmd = "java -version"
 ret = -1
 ssh = pexpect.spawn('ssh shangyidong@%s' % ("jumper.dper.com"))
